@@ -13,7 +13,7 @@ int main(){
 	printf("Hay nhap vao ba so c ");
 	scanf("%d",&c);
 	
-	while(a+b<=c or b+c<=a or c+a<=b){
+	while(a+b<=c or b+c<=a or c+a<=b or a<0 or b<0 or c<0){
 	printf("Ban da nhap sai hay nhap lai\n");
 	printf("Hay nhap vao ba so a\n ");
 	scanf("%d",&a);
